@@ -1,0 +1,398 @@
+//
+// Copyright (c) 2005, Wei Mingzhi. All Rights Reserved.
+// Use, redistribution and modifications of this file is unrestricted
+// as long as the above copyright notice is preserved.
+//
+////////////////////////////////////////////////////////
+
+nofan
+{
+推 倒 和
+}
+
+reach
+{
+立    直
+}
+
+pinfu
+{
+平    和
+}
+
+ippatu
+{
+立直一发
+}
+
+double_reach
+{
+双重立直
+}
+
+tanyao
+{
+断 么 九
+}
+
+tumo
+{
+自    摸
+}
+
+iipeikou
+{
+一色二顺
+}
+
+ryanpeikou
+{
+二色二顺
+}
+
+sansiki
+{
+三色同顺
+}
+
+sansiki_doukoku
+{
+三色同刻
+}
+
+toitoi
+{
+对 对 和
+}
+
+sanankou
+{
+三 暗 刻
+}
+
+sanrenkou
+{
+三 连 刻
+}
+
+junchan
+{
+纯全带么
+}
+
+chanta
+{
+混全带么
+}
+
+ittu
+{
+一气通贯
+}
+
+chinitu
+{
+清 一 色
+}
+
+honitu
+{
+混 一 色
+}
+
+chitoitu
+{
+七 对 子
+}
+
+honraotou
+{
+混 老 头
+}
+
+syosangen
+{
+小 三 元
+}
+
+haitei
+{
+海底捞月
+}
+
+houtei
+{
+河底摸鱼
+}
+
+rinshan
+{
+岭上开花
+}
+
+fanpai
+{
+役    牌
+}
+
+dora
+{
+悬 赏 牌
+}
+
+sankantu
+{
+三 杠 子
+}
+
+////////////////////////////////////////////////////////
+
+tenhou
+{
+天    和
+}
+
+renhou
+{
+人    和
+}
+
+chihou
+{
+地    和
+}
+
+tuisou
+{
+字 一 色
+}
+
+chinraotou
+{
+清 老 头
+}
+
+ryuisou
+{
+绿 一 色
+}
+
+daisangen
+{
+大 三 元
+}
+
+daisusi
+{
+大 四 喜
+}
+
+syosusi
+{
+小 四 喜
+}
+
+suankou
+{
+四 暗 刻
+}
+
+surenkou
+{
+四 连 刻
+}
+
+kokusi
+{
+国士无双
+}
+
+cyurenpotou
+{
+九连宝灯
+}
+
+sukantu
+{
+四 杠 子
+}
+
+////////////////////////////////////////////////////////
+
+yaku
+{
+役  满
+}
+
+4bai
+{
+四倍满
+}
+
+3bai
+{
+三倍满
+}
+
+bai
+{
+倍  满
+}
+
+hane
+{
+跳  满
+}
+
+man
+{
+满  贯
+}
+
+4han
+{
+四  翻
+}
+
+3han
+{
+三  翻
+}
+
+2han
+{
+二  翻
+}
+
+1han
+{
+一  翻
+}
+
+////////////////////////////////////////////////////////
+
+Yes
+{
+是
+}
+
+No
+{
+否
+}
+
+Continue
+{
+继续
+}
+
+girlselmsg
+{
+请 从 A，B，C，D 中 选 择 一 个 作 为 对 手
+}
+
+computer
+{
+电脑
+}
+
+player
+{
+玩家
+}
+
+hint_firstchance
+{
+[     开  始  机  会     ]
+    请选择您要交换的牌。
+}
+
+sangenrush
+{
+[三元特快]  请任选三张牌，可换成字牌。
+}
+ 
+hint_reachbonus
+{
+    本 局 立 直 必 胡 !
+}
+
+player_drawtile
+{
+摸牌
+}
+
+player_discardtile
+{
+出牌
+}
+
+player_chow
+{
+吃牌
+}
+
+player_kong
+{
+杠牌
+}
+
+player_pung
+{
+碰牌
+}
+
+player_reach
+{
+听牌
+}
+
+player_gomahjong
+{
+和牌
+}
+
+round_draw
+{
+流局
+}
+
+ready_hand
+{
+听 牌
+}
+
+unready_hand
+{
+不 听
+}
+
+out_selfdrawn
+{
+自 摸
+}
+
+out_discard
+{
+点 炮
+}
+
+num_fan
+{
+%2d 翻
+}
+
+num_fu_fan
+{
+%d 符 %d 翻
+}
+
+total
+{
+合 计
+}
+
+num_score
+{
+%d 点
+}

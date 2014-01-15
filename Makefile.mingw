@@ -1,0 +1,45 @@
+#
+# Copyright (c) 2005, Wei Mingzhi. All rights reserved.
+#
+# Use, redistributions and modifications of this file is
+# unrestricted provided the above copyright notice is
+# preserved.
+#
+
+OBJ = \
+	bot.o config.o game.o general.o hand.o ini.o main.o \
+	player.o text.o tile.o util.o
+
+HEADERS = \
+	bot.h game.h general.h hand.h ini.h main.h player.h \
+	tile.h
+
+CC = i586-mingw32msvc-gcc
+CXX = i586-mingw32msvc-g++
+
+TARGET = mj.exe
+
+#BASEFLAGS = -g3 -D_DEBUG=1
+BASEFLAGS =
+
+CFLAGS = ${BASEFLAGS} -I./lib.win32/include -mwindows
+LDFLAGS = ${BASEFLAGS} -mwindows
+LIBS = ./lib.win32/lib/libSDL.a ./lib.win32/lib/libSDL_image.a ./lib.win32/lib/libSDL_mixer.a ./lib.win32/lib/libSDL_ttf.a
+
+all: ${TARGET}
+
+${TARGET}: ${OBJ}
+	${CXX} ${LDFLAGS} -L./lib.win32/lib -lmingw32 -lstdc++ -lSDLmain -o ${TARGET} ${OBJ} ${LIBS}
+
+clean:
+	rm -f *.o ${TARGET}
+
+distclean:
+	rm -f *.o ${TARGET}
+
+%.o:    %.cpp ${HEADERS}
+	${CXX} ${CFLAGS} -c $< -o $@
+
+%.o:    %.c ${HEADERS}
+	${CC} ${CFLAGS} -c $< -o $@
+
