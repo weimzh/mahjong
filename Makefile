@@ -20,7 +20,7 @@ CXX = g++
 TARGET = mj
 
 #BASEFLAGS = -g3 -D_DEBUG=1
-BASEFLAGS = -s -O3
+BASEFLAGS = -s -O3 -std=c++0x -Wno-narrowing
 
 CFLAGS = ${BASEFLAGS} `sdl-config --cflags`
 LDFLAGS = ${BASEFLAGS} `sdl-config --libs` -lSDL_image -lSDL_mixer -lSDL_ttf
@@ -28,7 +28,7 @@ LDFLAGS = ${BASEFLAGS} `sdl-config --libs` -lSDL_image -lSDL_mixer -lSDL_ttf
 all: ${TARGET}
 
 ${TARGET}: ${OBJ}
-	${CXX} ${LDFLAGS} -o ${TARGET} ${OBJ}
+	${CXX} -o ${TARGET} ${OBJ} ${LDFLAGS}
 
 clean:
 	rm -f *.o ${TARGET}
