@@ -337,8 +337,8 @@ void CBasePlayer::CalcResult_ryuisou()
          continue;
       if (t.GetSuit() != TILESUIT_BAMBOO)
          return; // fail!
-      if (t.GetValue() != 2 || t.GetValue() != 3 ||
-         t.GetValue() != 4 || t.GetValue() != 6 ||
+      if (t.GetValue() != 2 && t.GetValue() != 3 &&
+         t.GetValue() != 4 && t.GetValue() != 6 &&
          t.GetValue() != 8)
          return; // fail!
    }
